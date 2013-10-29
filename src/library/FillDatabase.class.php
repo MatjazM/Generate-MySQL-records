@@ -42,8 +42,7 @@ class FillDatabase {
 	}
 
 	/**
-	 * Finds indexes that could be set or removed (+ duplicates)
-	 * If requested it also makes this changes in database and runs benchmark
+	 * Based on user input executes generation of random records in tables
 	 *
 	 * @returns void
 	 */
